@@ -1,0 +1,6 @@
+vite don't support svg components so we import svgr library 
+
+-first we install lib -> npm i vite-plugin-svgr
+-go to vite.config
+-import svgr from "vite-plugin-svgr"
+-invoke function svgr beside react()
