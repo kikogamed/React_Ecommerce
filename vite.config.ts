@@ -5,7 +5,7 @@ import path from 'path';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/React_Ecommerce/",
+  base: "./",
   build: {
     outDir: 'dist', // Make sure this line exists
   },
