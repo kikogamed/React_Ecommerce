@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 import { LottieHandler } from '@components/feedback';
 // Pages
@@ -21,7 +21,7 @@ import Cart from '@pages/Cart';
 import Wishlist from '@pages/wishlist';
 import ProtectedRoute from '@components/Auth/ProtectedRoute';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
       path: "/",
       element: <Suspense fallback={<LottieHandler type="layoutLoading" />}>
