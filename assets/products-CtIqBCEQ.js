@@ -1,0 +1,1 @@
+import{j as r,C as d,L as u,G as a,P as n}from"./index-CyotTLIc.js";import{u as c}from"./useProducts-Ds2KnQ7e.js";const m=()=>{const{error:s,loading:t,productFullInfo:o}=c("products");return r.jsx(d,{children:r.jsx(u,{error:s,status:t,type:"product",children:r.jsx(a,{records:o,renderItem:e=>r.jsx(n,{...e}),emptyMessage:"There is no products"})})})};export{m as default};
