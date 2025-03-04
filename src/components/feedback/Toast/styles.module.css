@@ -6,6 +6,11 @@
   
     overflow: hidden;
   }
+  @media (max-width: 588px) {
+    .toastList {
+      width: 90%;
+    }
+  }
   
   .toastList:empty {
     display: none;
